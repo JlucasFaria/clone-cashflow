@@ -150,4 +150,7 @@
   <data name="TOTAL_SPENT_IN" xml:space="preserve">
     <value>Total déspensé en {0}</value>
   </data>
+  <data name="NAME_EMPTY" xml:space="preserve">
+    <value>Le nom ne peut pas être vide.</value>
+  </data>
 </root>

@@ -104,7 +104,47 @@ namespace CashFlow.Exception {
                 return ResourceManager.GetString("TITLE_REQUIRED", resourceCulture);
             }
         }
-        
+
+        public static string NAME_EMPTY
+        {
+            get
+            {
+                return ResourceManager.GetString("NAME_EMPTY", resourceCulture);
+            }
+        }
+
+        public static string EMAIL_EMPTY
+        {
+            get
+            {
+                return ResourceManager.GetString("EMAIL_EMPTY", resourceCulture);
+            }
+        }
+
+        public static string EMAIL_INVALID
+        {
+            get
+            {
+                return ResourceManager.GetString("EMAIL_INVALID", resourceCulture);
+            }
+        }
+
+        public static string INVALID_PASSWORD
+        {
+            get
+            {
+                return ResourceManager.GetString("INVALID_PASSWORD", resourceCulture);
+            }
+        }
+
+        public static string EMAIL_ALREADY_REGISTERED
+        {
+            get
+            {
+                return ResourceManager.GetString("EMAIL_ALREADY_REGISTERED", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to Unknown error.
         /// </summary>
